@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'screwdriver_node = screwdriver.screwdriver_node:main',
         ],
     },
 )
